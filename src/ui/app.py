@@ -45,7 +45,8 @@ st.sidebar.markdown("---")
 auto_refresh = st.sidebar.checkbox("Actively Monitor (Poll)", value=True)
 
 # --- MAIN APP LOGIC ---
-st.title("Holistic Industrial Digital Twin")
+st.title("Holistic Industrial Digital Twin ⚡ v1.1")
+st.caption("🚀 Automated Deployment Verified")
 st.markdown("### Real-time Asset Health Monitoring")
 
 # --- SOLUTION OVERVIEW ---
