@@ -23,3 +23,6 @@ steps:
 # Store images in Google Container Registry
 images:
   - 'us-central1-docker.pkg.dev/$PROJECT_ID/cloud-run-source-deploy/digital-twin:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
